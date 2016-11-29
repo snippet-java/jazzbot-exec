@@ -1,7 +1,7 @@
 ---
 applications:
 - name: exec
-  memory: 1G
-  host: exec-jazzbot
+  memory: 512M
+  host: exec-${random-word}
   command: node app.js
   buildpack: https://github.com/snippet-java/nodejs-java-buildpack
